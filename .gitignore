@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+SolutionBreaker/.vs
+SolutionBreaker/Debug
+SolutionBreaker/Release
+SolutionBreaker/SolutionBreaker/Debug
+SolutionBreaker/SolutionBreaker/Release
