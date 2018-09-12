@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="SegmentSet.h" />
+    <ClInclude Include="SolutionA.h" />
     <ClInclude Include="SolutionBase.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
@@ -164,6 +165,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="SegmentSet.cpp" />
+    <ClCompile Include="SolutionA.cpp" />
     <ClCompile Include="SolutionBase.cpp" />
     <ClCompile Include="SolutionBreaker.cpp" />
   </ItemGroup>
