@@ -161,6 +161,8 @@
     <ClInclude Include="SolutionE.h" />
     <ClInclude Include="SolutionF.h" />
     <ClInclude Include="SolutionG.h" />
+    <ClInclude Include="SolutionH.h" />
+    <ClInclude Include="SolutionKMP.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
@@ -180,6 +182,8 @@
     <ClCompile Include="SolutionE.cpp" />
     <ClCompile Include="SolutionF.cpp" />
     <ClCompile Include="SolutionG.cpp" />
+    <ClCompile Include="SolutionH.cpp" />
+    <ClCompile Include="SolutionKMP.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

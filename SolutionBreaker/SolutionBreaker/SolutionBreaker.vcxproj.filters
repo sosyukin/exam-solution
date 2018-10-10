@@ -48,6 +48,15 @@
     <ClInclude Include="SolutionG.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="SolutionA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionKMP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionH.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -81,6 +90,15 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SolutionG.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionKMP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionH.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
