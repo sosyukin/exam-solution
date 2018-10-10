@@ -155,6 +155,8 @@
     <ClInclude Include="SegmentSet.h" />
     <ClInclude Include="SolutionA.h" />
     <ClInclude Include="SolutionBase.h" />
+    <ClInclude Include="SolutionH.h" />
+    <ClInclude Include="SolutionKMP.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
@@ -168,6 +170,8 @@
     <ClCompile Include="SolutionA.cpp" />
     <ClCompile Include="SolutionBase.cpp" />
     <ClCompile Include="SolutionBreaker.cpp" />
+    <ClCompile Include="SolutionH.cpp" />
+    <ClCompile Include="SolutionKMP.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

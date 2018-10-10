@@ -25,6 +25,14 @@ struct B
 	int b;
 	char a;
 };
+struct C
+{};
+class D
+{
+	virtual void f() {}// ...
+	virtual void g() {}// 8
+	char c;
+};
 
 SegmentSet::SegmentSet()
 {
@@ -44,6 +52,8 @@ SegmentSet::SegmentSet()
 
 	cout << "A : " << sizeof(A) << endl;
 	cout << "B : " << sizeof(B) << endl;
+	cout << "C : " << sizeof(C) << endl;
+	cout << "D : " << sizeof(D) << endl;
 
 	const int a = 0;
 	int const b = 0;
@@ -57,6 +67,15 @@ SegmentSet::SegmentSet()
 	// 指针常量，指针f是一个常量，
 	d = &e;
 	c = &e;
+
+	int max_a = INT_MAX;
+	cout << max_a << endl;
+	int max_b = max_a * 3;
+	cout << max_b << endl;
+	cout << -10 % 3 << endl;
+	vector<int> vec;
+	string s1(5, '0');
+	s1.insert(s1.begin(), '1');
 }
 
 
