@@ -31,8 +31,11 @@
 *.out
 *.app
 
+.vs
 SolutionBreaker/.vs
 SolutionBreaker/Debug
+SolutionBreaker/x64
 SolutionBreaker/Release
 SolutionBreaker/SolutionBreaker/Debug
+SolutionBreaker/SolutionBreaker/x64
 SolutionBreaker/SolutionBreaker/Release
