@@ -34,6 +34,10 @@ class D
 	char c;
 };
 
+const shared_ptr<int>& f(shared_ptr<int>& p)
+{
+	return p;
+}
 SegmentSet::SegmentSet()
 {
 	const char str1[] = "abc";
@@ -76,6 +80,29 @@ SegmentSet::SegmentSet()
 	vector<int> vec;
 	string s1(5, '0');
 	s1.insert(s1.begin(), '1');
+
+	try
+	{
+		throw std::exception("I'm a exception");
+	}
+	catch (const std::exception& e)
+	{
+		std::cout << e.what() << endl;
+	}
+	
+	MyClass* receiver = new MyClass;
+	Command* aCommand = new SimpleCommand<MyClass>(receiver, &MyClass::Action);
+	aCommand->Execute();
+	delete aCommand;
+	delete receiver;
+
+	MacroCommand macroCommand;
+	X x1;
+	Command* bCommand = new ACommand(&x1);
+	macroCommand.Add(bCommand);
+	macroCommand.Execute();
+
+	
 }
 
 
