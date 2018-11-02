@@ -30,6 +30,27 @@
     <ClInclude Include="SolutionA.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="SolutionB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionD.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionF.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionG.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SolutionA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="SolutionKMP.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -54,6 +75,27 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SegmentSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SolutionG.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="SolutionA.cpp">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -155,7 +155,13 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="SegmentSet.h" />
     <ClInclude Include="SolutionA.h" />
+    <ClInclude Include="SolutionB.h" />
     <ClInclude Include="SolutionBase.h" />
+    <ClInclude Include="SolutionC.h" />
+    <ClInclude Include="SolutionD.h" />
+    <ClInclude Include="SolutionE.h" />
+    <ClInclude Include="SolutionF.h" />
+    <ClInclude Include="SolutionG.h" />
     <ClInclude Include="SolutionH.h" />
     <ClInclude Include="SolutionKMP.h" />
     <ClInclude Include="SolutionSerial.h" />
@@ -171,8 +177,14 @@
     </ClCompile>
     <ClCompile Include="SegmentSet.cpp" />
     <ClCompile Include="SolutionA.cpp" />
+    <ClCompile Include="SolutionB.cpp" />
     <ClCompile Include="SolutionBase.cpp" />
     <ClCompile Include="SolutionBreaker.cpp" />
+    <ClCompile Include="SolutionC.cpp" />
+    <ClCompile Include="SolutionD.cpp" />
+    <ClCompile Include="SolutionE.cpp" />
+    <ClCompile Include="SolutionF.cpp" />
+    <ClCompile Include="SolutionG.cpp" />
     <ClCompile Include="SolutionH.cpp" />
     <ClCompile Include="SolutionKMP.cpp" />
     <ClCompile Include="SolutionSerial.cpp" />
